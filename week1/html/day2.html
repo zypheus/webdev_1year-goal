@@ -20,10 +20,6 @@
         .search{
             flex:1;
         }
-        .search-input{
-           border: none;
-           border-bottom: 4px solid white;
-        }
         nav ul li{
           background-color: black;
         }
@@ -41,8 +37,13 @@
             .container>li{
                 flex-basis: 50%;
             };
+        }
+        @media all and (max-width:400px){
+            .container>li{
+                flex-basis: 100%;
+            } 
             .search{
-                text-align: center;
+                order:1;
             }
         }
     </style>

@@ -1,5 +1,5 @@
 # webdev_1year-goal
-Here’s a structured 1-year daily learning plan to become a professional web developer, focusing on **PHP, MySQL, JavaScript, HTML/CSS**. Each day builds on previous knowledge and includes practical tasks. I’ve broken it into **4 phases** with weekly themes and daily micro-tasks (1–2 hours/day):
+ micro-tasks (1–2 hours/day):
 
 ---
 

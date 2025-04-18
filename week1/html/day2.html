@@ -1,0 +1,62 @@
+<!-- Build a navigation bar using Flexbox. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        *{
+            background-color: rgb(162, 203, 189);
+        }
+        nav{
+            border: solid 2px black;
+            color: white;
+            background-color: black;
+        }
+        .container{
+            display:flex;
+        }
+        .search{
+            flex:1;
+        }
+        .search-input{
+           border: none;
+           border-bottom: 4px solid white;
+        }
+        nav ul li{
+          background-color: black;
+        }
+        nav ul{
+            background-color: black;
+        }
+        .container>li{
+            list-style: none;
+            flex: 1;
+        }
+        @media all and (max-width: 600px){
+            .container{
+                flex-wrap:wrap;
+            }
+            .container>li{
+                flex-basis: 50%;
+            };
+            .search{
+                text-align: center;
+            }
+        }
+    </style>
+ </head>
+ <body>
+
+    <nav>
+        <ul class="container">
+            <li>Home</li>
+            <li>Profile</li>
+            <li><input type="text" class="search-input" placeholder="Search"></li>
+            <li>Log-out</li>
+        </ul>
+    </nav>
+
+ </body>
+ </html>
